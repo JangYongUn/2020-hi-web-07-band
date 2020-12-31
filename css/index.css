@@ -1,0 +1,120 @@
+/********** 공통(common) **********/
+
+.wrapper {max-width: 780px; margin: 0 2em auto;}
+
+
+/********** .navi-wrapper **********/
+.navi-wrapper {background-color: black; display: flex; justify-content: space-between; align-items: center;}
+.navi-wrapper .navi-wrap {font-size: 1em; color: #f9f9f9; display: flex; align-items: center;}
+.navi-wrapper .navi {padding: 1em 1.5em 1em 1.5em; position: relative; cursor: pointer;}
+.navi-wrapper .navi-wrap .navi:hover {background-color: #ddd; color: black;}
+.navi-wrapper .navi .sub-navi {position: absolute; background-color: #fff; top: 3em; left: 0;}
+.navi-wrapper .navi .sub-navi .sub {color: black; padding: 0.5em 3em 0.5em 0.75em; line-height: 1.5em; }
+.navi-wrapper .navi .sub-navi .sub:hover {color: black; background-color: #ddd;}
+.navi-wrapper .sreach-wrap {color: #fff; font-size: 1em; padding: 1em;}
+.navi-wrapper .sreach-wrap:hover > .fa {background-color: red;}
+
+
+/********** .main-wrapper **********/
+.main-wrapper {}
+.main-wrapper .main-wrap {}
+.main-wrapper .img-wrap {position: relative;}
+.main-wrapper .img-wrap img {width: 100%;}
+.main-wrapper .main-title {text-align: center; position: absolute; color: #fff; bottom: 5%; left: 50%; transform: translateX(-50%);}
+.main-wrapper .main-title > p {font-size: 1.5em; padding-bottom: 1em;}
+.main-wrapper .main-title > span {font-size: 0.875em; font-weight: bold;}
+
+
+/********** .band-wrapper **********/
+.band-wrapper {padding: 5em 0;}
+.band-wrapper .band-wrap {}
+.band-wrapper .band {}
+.band-wrapper .band > h2.title {font-size: 2em; padding-bottom: 0.875em; text-align: center;}
+.band-wrapper .band > p.sub-title {color: #666; font-size: 1em; font-style: italic; padding-bottom: 1em; text-align: center;}
+.band-wrapper .band > span.content {display: block; text-align: justify;}
+.band-wrapper .name-wrapper {padding-top: 5em; display: flex;}
+.name-wrapper .name-wrap {text-align: center;}
+.name-wrapper .name-wrap .name-title {padding-bottom: 1em;}
+.name-wrapper .name-wrap .img-name {}
+.name-wrapper .name-wrap .img-name > img {width: 60%;}
+
+
+/********** .tour-wrapper **********/
+.tour-wrapper {background-color: black; padding: 5em 0;}
+.tour-wrapper .tour-wrap {}
+.tour-wrapper .tour-wrap .tour-title {color: #fff; padding-bottom: 1.25em;}
+.tour-wrapper .tour-wrap .tour-title > h2.title {font-size: 2em; padding-bottom: 0.875em; text-align: center;}
+.tour-wrapper .tour-wrap .tour-title > p.sub-title {color: #666; font-size: 1em; font-weight: bold; font-style: italic; padding-bottom: 2em; text-align: center;}
+.tour-wrapper .tour-wrap .tour-mid {background-color: #fff;}
+.tour-wrapper .tour-wrap .tour-mid .tour-sep {border-bottom: 1px solid #777; display: flex; align-items: center;}
+.tour-wrapper .tour-wrap .tour-mid .tour-sep > p {padding: 0.875em 1em; color: #666;}
+.tour-wrapper .tour-wrap .tour-mid .tour-sep > span {width: 80px; height: 22px; background-color: red; text-align: center; color: #fff; line-height: 1.4;}
+.tour-wrapper .tour-wrap .tour-mid .tour-oct {border-bottom: 1px solid #666; display: flex; align-items: center;}
+.tour-wrapper .tour-wrap .tour-mid .tour-oct > p {padding: 0.875em 1em; color: #666;}
+.tour-wrapper .tour-wrap .tour-mid .tour-oct > span {width: 80px; height: 22px; background-color: red; text-align: center; color: #fff; line-height: 1.4;}
+.tour-wrapper .tour-wrap .tour-mid .tour-nov {border-bottom: 1px solid #666; display: flex; align-items: center; justify-content: space-between;}
+.tour-wrapper .tour-wrap .tour-mid .tour-nov > p {padding: 0.875em 1em; color: #666;}
+.tour-wrapper .tour-wrap .tour-mid .tour-nov > span {border-radius: 50%; color: #fff; background-color: black; height: 1.5em; width: 1.5em; margin-right: 1em; text-align: center; line-height: 1.5;}
+.tour-wrapper .tour-wrap .tour-bottom {padding: 2em 0; display: flex; justify-content: space-between; align-items: center;}
+.tour-wrapper .tour-wrap .tour-bottom .tour-tickets {flex: 32% 0 0; background-color: #fff;}
+.tour-wrapper .tour-wrap .tour-bottom .tour-tickets .tour-img {}
+.tour-wrapper .tour-wrap .tour-bottom .tour-tickets .tour-img > img {width: 100%;}
+.tour-wrapper .tour-wrap .tour-bottom .tour-tickets .ticket-content {margin: 1.5em;}
+.tour-wrapper .tour-wrap .tour-bottom .tour-tickets .ticket-content .tour-name {font-weight: bold;}
+
+
+/********** .contact-wrapper **********/
+.contact-wrapper {padding: 5em 0 10em 0;}
+.contact-wrapper .contact-wrap {position: relative;}
+.contact-wrapper .contact-wrap .contact-title {}
+.contact-wrapper .contact-wrap .contact-title h2.title {font-size: 2em; padding-bottom: 0.875em; text-align: center;}
+.contact-wrapper .contact-wrap .contact-title p.sub-title {color: #666; font-size: 1em; font-style: italic; padding-bottom: 2em; text-align: center;}
+.contact-wrapper .contact-wrap .contact {display: flex; justify-content: space-between;}
+.contact-wrapper .contact-wrap .contact .contact-content {flex: 50% 0 0; font-size: 1.125em;}
+.contact-wrapper .contact-wrap .contact .contact-content .contact-add {padding-bottom: 0.75em;}
+.contact-wrapper .contact-wrap .contact .contact-content .contact-phone {padding-bottom: 0.75em;}
+.contact-wrapper .contact-wrap .contact .contact-content .contact-email {}
+.contact-wrapper .contact-wrap .contact .contact-send {}
+.contact-wrapper .contact-wrap .contact .contact-send .name-email {margin-bottom: 1em;}
+.contact-wrapper .contact-wrap .contact .contact-send .send-i {width: 45%; padding: 0.4em; margin-right: 4%;}
+.contact-wrapper .contact-wrap .contact .contact-send .send-in {width: 45%; padding: 0.4em; box-sizing: border-box;}
+.contact-wrapper .contact-wrap .contact .contact-send .message {}
+.contact-wrapper .contact-wrap .contact .contact-send .message .send-inp {width: 96%; padding: 0.4em; margin-bottom: 1em;}
+.contact-wrapper .contact-wrap .contact .contact-send .bt-send .send {position: absolute; right: 0; width: 4.5em; height: 2.5em; border-radius: 0; border: 0; background-color: black; color: #fff; right: 0;}
+
+
+/********** .map-wrapper **********/
+.map-wrapper {}
+.map-wrapper .map-wrap {}
+.map-wrapper .map-wrap > img {width: 100%;}
+
+
+/********** .footer-wrapper **********/
+.footer-wrapper {}
+.footer-wrapper .footer-wrap {text-align: center;}
+.footer-wrapper .footer-wrap .footer {}
+.footer-wrapper .footer-wrap .power {}
+
+
+
+
+
+
+/********** 반응형 **********/
+@media screen and (max-width: 1199px) {
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+    .band-wrapper .name-wrapper {padding-top: 5em;}
+    .name-wrapper .name-wrap {text-align: center;}
+	.name-wrapper .name-wrap .img-name > img {width: 100%;}
+}
